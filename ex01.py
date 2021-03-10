@@ -28,8 +28,7 @@ for e in elems :
 browser.save_screenshot("naver_python.png")
 
 
-# 음.. git hub 가 뭔가 간단하지 않습니다.
-# 추가하자
+
 
 time.sleep(5)
 
