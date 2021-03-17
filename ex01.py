@@ -27,9 +27,6 @@ for e in elems :
 
 browser.save_screenshot("naver_python.png")
 
-
-
-
 time.sleep(5)
 
 browser.close()
