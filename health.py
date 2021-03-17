@@ -51,8 +51,5 @@ brow.find_element_by_xpath('//*[@id="survey_q2a1"]').click()
 brow.find_element_by_xpath('//*[@id="survey_q3a1"]').click()
 brow.find_element_by_xpath('//*[@id="btnConfirm"]').click()
 
-
-
-
 time.sleep(5)
 # brow.quit()
