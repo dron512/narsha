@@ -35,7 +35,7 @@ elem.send_keys('강석현')
 brow.find_element_by_xpath('//*[@id="birthday_input"]').send_keys('040910')
 brow.find_element_by_xpath('//*[@id="btnConfirm"]').click()
 
-time.sleep(1)
+time.sleep(2)
 
 #비밀번호 넣기
 brow.find_element_by_xpath('//*[@id="WriteInfoForm"]/table/tbody/tr/td/input').send_keys('0910')
@@ -43,9 +43,9 @@ brow.find_element_by_xpath('//*[@id="btnConfirm"]').click()
 
 # 이름 생년월일 비밀번호 사용자 입력받는거...
 
-time.sleep(1)
+time.sleep(4)
 brow.find_element_by_xpath('//*[@id="container"]/div/section[2]/div[2]/ul/li/a/span[1]').click()
-time.sleep(1)
+time.sleep(2)
 brow.find_element_by_xpath('//*[@id="survey_q1a1"]').click()
 brow.find_element_by_xpath('//*[@id="survey_q2a1"]').click()
 brow.find_element_by_xpath('//*[@id="survey_q3a1"]').click()
